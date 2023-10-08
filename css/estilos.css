@@ -1,0 +1,321 @@
+.body{
+    background-color: black;
+}
+
+.contenedor-logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo{
+    height: 300px;
+    width: 800px;
+    margin-top: -80px;
+    margin-bottom: -50px;
+    display: flex;
+}
+
+
+/* NAVBAR */
+.navbar{
+    background-color: #1E1B1B;
+}
+.navbar-nav{
+    color: white;
+}
+.section{
+    background-color: #1E1B1B;
+}
+.topnav {
+    overflow: hidden;
+    margin-left: 370px;
+    margin-right: 370px;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+.topnav a {
+    display: inline-block;
+    justify-content: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;;
+    margin-left: 5px;
+}
+.topnav a:hover {
+    background-color: #B5121B;
+    color: black;
+}
+.topnav a.active {
+    background-color: #1E1B1B;
+    color: white;
+}
+
+/* PELICULAS INICIO */
+.titulo-estrenos{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.peliculas{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+/* BARBIE */
+.barbie{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-barbie{
+    text-decoration: none;
+}
+.titulo-barbie{
+    color: white;
+    margin-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+/* ELEMENTOS */
+.elementos{
+    width: 250px;
+}
+.titulo-elementos{
+    margin-top: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.peli-elementos{
+    text-decoration: none;
+}
+
+/* OPPENHEIMER */
+.oppenheimer{
+    width: 250px;
+    margin-left: 120px;
+}
+.titulo-oppenheimer{
+    margin-left: 120px;
+    margin-top: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.peli-oppenheimer{
+    text-decoration: none;
+}
+
+/* HABLAME */
+.hablame{
+    width: 250px;
+    margin-left: 120px;
+}
+.titulo-hablame{
+    color: white;
+    margin-top: 8px;
+    margin-left: 120px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.peli-hablame{
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+.footer{
+    background-color: #1E1B1B;
+}
+.logo-footer{
+    height: 40%;
+    width: 450px;
+    display: flex;
+    margin-top: -40px;
+    margin-bottom: -45px;
+}
+.columnas-footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.texto-izquierdo{
+    margin-right: 80px;
+    text-decoration: none;
+}
+.texto-derecho{
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.texto-medio{
+    margin-left: 80px;
+    color: white;
+    margin-right: 50px;
+}
+.bases{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* REDES SOCIALES FOOTER */
+.instagram{
+    width: 60px;
+    margin: 10px;
+}
+.facebook{
+    width: 60px;
+    margin: 10px;
+}
+.twitter{
+    width: 60px;
+    margin: 10px;
+}
+.tiktok{
+    width: 60px;
+    margin: 10px;
+}
+.threads{
+    width: 60px;
+    margin: 10px;
+}
+
+/* PÁGINA PELICULAS */
+.titulo-peliculas{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* MEGALODON */
+.megalodon{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-megalodon{
+    text-decoration: none;
+}
+.titulo-megalodon{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+    text-decoration: none;
+}
+
+/* MISION IMPOSIBLE */
+.mision{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-mision{
+    text-decoration: none;
+}
+.titulo-mision{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+}
+
+/* LA MONJA */
+.monja{
+    width: 250px;
+    margin-right: 120px;
+}
+.peli-monja{
+    text-decoration: none;
+}
+.titulo-monja{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+}
+
+/* AFTER */
+.after{
+    width: 250px;
+}
+.peli-after{
+    text-decoration: none;
+}
+.titulo-after{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 8px;
+}
+
+/* PROMOCIONES */
+.columnas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.columna1{
+    padding: 25px;
+}
+.columna2{
+    padding: 25px;
+}
+.titulo-promociones{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CANDY */
+.combos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.titulo-candy{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* PREGUNTAS FRECUENTES */
+.titulo-preguntas{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.visa{
+    width: 85px;
+    height: 55px;
+    margin-left: 15px;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+
+/* MI CUENTA */
+.titulo-micuenta{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
